@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-london",
+  "name": "dallas-peters-sote",
   "private": true,
-  "description": "A custom, image-centric theme for Gatsby",
-  "version": "1.0.0",
-  "author": "Imed Adel <aadelimed@gmail.com>",
+  "description": "Website for UX designer Dallas Peters",
+  "version": "0.1.0",
+  "author": "Dallas Peters <dallaspeters@gmail.com>",
   "bugs": {
-    "url": "https://github.com/ImedAdel/gatsby-london/issues"
+    "url": "https://github.com/dallasbpeters/dallas-peters-site/issues"
   },
   "dependencies": {
     "gatsby": "^2.4.2",
