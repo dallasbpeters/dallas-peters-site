@@ -205,53 +205,53 @@ const ElementsPage = ({ data }, location) => {
           <h2 id="buttons">Buttons</h2>
           <ul className="actions">
             <li>
-              <a href="#" className="button primary">
+              <a href="http://google.com" className="button primary">
                 Primary
               </a>
             </li>
             <li>
-              <a href="#" className="button">
+              <a href="http://google.com" className="button">
                 Default
               </a>
             </li>
           </ul>
           <ul className="actions">
             <li>
-              <a href="#" className="button primary large">
+              <a href="http://google.com" className="button primary large">
                 Large
               </a>
             </li>
             <li>
-              <a href="#" className="button">
+              <a href="http://google.com" className="button">
                 Default
               </a>
             </li>
             <li>
-              <a href="#" className="button small">
+              <a href="http://google.com" className="button small">
                 Small
               </a>
             </li>
           </ul>
           <ul className="actions fit">
             <li>
-              <a href="#" className="button primary fit">
+              <a href="http://google.com" className="button primary fit">
                 Fit
               </a>
             </li>
             <li>
-              <a href="#" className="button fit">
+              <a href="http://google.com" className="button fit">
                 Fit
               </a>
             </li>
           </ul>
           <ul className="actions fit small">
             <li>
-              <a href="#" className="button primary fit small">
+              <a href="http://google.com" className="button primary fit small">
                 Fit + Small
               </a>
             </li>
             <li>
-              <a href="#" className="button fit small">
+              <a href="http://google.com" className="button fit small">
                 Fit + Small
               </a>
             </li>
