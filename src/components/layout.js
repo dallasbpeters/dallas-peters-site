@@ -45,29 +45,21 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
-                title="Facebook"
+                href="https://www.behance.net/dallaspeters"
+                title="Behance"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook
+                Behance
               </a>
               <a
-                href="https://twitter.com"
-                title="Twitter"
+                href="https://sourcerer.io/dallasbpeters"
+                title="Sourcerer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
+                Sourcerer (Code)
               </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RSS
-              </Link>
             </div>
           </div>
         </div>
