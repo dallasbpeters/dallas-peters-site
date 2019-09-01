@@ -1,9 +1,10 @@
 module.exports = {
-  name: 'London',
-  shortName: 'London',
-  description: 'A bold, minimal theme for Gatsby, focused on clean typography & beautiful imagery',
-  url: 'https://gatsby-london.netlify.com', // Domain of your site without prefix!
-  prefix: '/',
-  author: 'Imed Adel',
-  twitter: 'Imed_Adel'
+  name: "Dallas Peters",
+  shortName: "Dallas Peters",
+  description:
+    "Hello, I'm product and user experience designer in Austin Texas with over 13 years of design experience.",
+  url: "https://dallaspeters.co", // Domain of your site without prefix!
+  prefix: "/",
+  author: "Dallas Peters",
+  twitter: "Dallas Peters",
 }
