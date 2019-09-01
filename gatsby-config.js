@@ -92,7 +92,7 @@ module.exports = {
         short_name: siteConfig.shortName,
         start_url: siteConfig.prefix,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#0D4CFF`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
