@@ -672,6 +672,10 @@ body {
   margin: 0;
 }
 
+.post-content-body .grid-group--mobile p picture img {
+  border: solid 1px var(--color-border: #ddd;);
+}
+
 @media (max-width: 500px) {
   .post-content-body .grid-group--mobile p {
     flex-basis: 50%;

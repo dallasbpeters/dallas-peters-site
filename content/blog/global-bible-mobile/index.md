@@ -13,13 +13,13 @@ description: User Experience Design for Global.Bible Progressive Web App
 
 ![GlobalBible Mobile](./globalbible-3.png)
 
-![GlobalBible Mobile](./globalbible-4.png)
+![GlobalBible Mobile](./globalbible-6.png)
 
 ![GlobalBible Mobile](./globalbible-5.png)
 
-![GlobalBible Mobile](./globalbible-6.png)
-
 ![GlobalBible Mobile](./globalbible-7.png)
+
+![GlobalBible Mobile](./globalbible-11.png)
 
 ![GlobalBible Mobile](./globalbible-8.png)
 
