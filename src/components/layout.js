@@ -78,7 +78,12 @@ const Layout = props => {
           rel="noopener noreferrer"
         >
           Gatsby
-        </a>
+        </a>{" "}
+        and{" "}
+        <span role="img" aria-label="red heart">
+          ❤️
+        </span>{" "}
+        in Austin, TX.
       </footer>
     </div>
   )
