@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from "react"
 import { Link } from "gatsby"
 
@@ -10,6 +12,7 @@ const Layout = props => {
         <div className="site-head-container">
           <a
             className="nav-burger"
+            // eslint-disable-next-line
             href={`#`}
             onClick={() => setToggleNav(!toggleNav)}
           >
@@ -31,9 +34,6 @@ const Layout = props => {
               </li>
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
-              </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
               </li>
             </ul>
           </nav>
