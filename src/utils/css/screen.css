@@ -193,11 +193,10 @@ body {
   display: block;
   padding: 10px;
   color: var(--color-base);
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   line-height: 1em;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 2px;
 }
 
 .site-head-logo:hover {
@@ -384,7 +383,7 @@ body {
 
 .post-feed {
   display: flex;
-  align-items: ;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -427,7 +426,7 @@ body {
   bottom: 0;
   left: 0;
   color: #fff;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(15, 79, 255, 0.75);
   opacity: 1;
   transition: opacity 0.5s cubic-bezier(0.33, 0, 0.2, 1);
 }
@@ -449,9 +448,10 @@ body {
 .post-card-title {
   margin: 0;
   display: inline-block;
-  font-size: 3.4rem;
+  font-size: 3.8rem;
   max-width: 70%;
   text-align: center;
+  letter-spacing: -1px;
   transition: all 0.3s cubic-bezier(0.33, 0, 0.2, 1);
 }
 
