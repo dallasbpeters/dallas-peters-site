@@ -105,7 +105,7 @@ module.exports = {
           google: [
             {
               family: "Work Sans",
-              variants: ["400", "500", "600"],
+              variants: ["400", "500", "600", "700"],
             },
           ],
         },
