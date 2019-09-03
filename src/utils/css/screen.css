@@ -550,6 +550,12 @@ body {
   font-size: 1.9rem;
   line-height: 1.65em;
 }
+
+.post-content-body h2,
+.post-content-body h3 {
+  text-align: center;
+}
+
 @media (max-width: 500px) {
   .post-content-body {
     font-size: 1.7rem;
