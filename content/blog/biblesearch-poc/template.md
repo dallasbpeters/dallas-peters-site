@@ -1,5 +1,5 @@
 ---
-title: BibleSearch.org Proof of Concept
+title: Bible Search Proof of Concept
 date: "2016-01-01"
 thumbnail: ./cover.png
 description: This project was completed in just 4 days in a team hackathon in Austin Texas.
