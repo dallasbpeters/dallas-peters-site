@@ -45,6 +45,10 @@
   transform: translateX(calc(50vw - 50%));
 }
 
+.kg-width-full img {
+  border: solid 1px var(--color-border: #ddd);
+}
+
 .kg-width-full figcaption {
   padding-left: 0;
   padding-right: 0;

@@ -2,12 +2,19 @@
 title: Title
 date: "2018-01-01"
 thumbnail: ./cover.png
-description: Post description goes here
+description: Post description
 ---
 
 <!-- Place any Markup or HMTL content below this -->
 
 <!-- <div class="kg-card kg-image-card kg-width-full">
+
+![Darkness](./image.png)
+
+</div> -->
+
+
+<!-- <div class="grid-group--mobile">
 
 ![Darkness](./image.png)
 
