@@ -46,7 +46,7 @@
 }
 
 .kg-width-full img {
-  border: solid 1px var(--color-border: #ddd);
+  border: solid 1px var(--color-border);
 }
 
 .kg-width-full figcaption {

@@ -35,6 +35,9 @@ const Layout = props => {
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
               </li>
+              <li className="nav-about" role="menuitem">
+                <a href="mailto:dallaspeters@gmail.com">Contact</a>
+              </li>
             </ul>
           </nav>
           <div className="site-head-center">

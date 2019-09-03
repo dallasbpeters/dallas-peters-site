@@ -428,7 +428,7 @@ body {
   bottom: 0;
   left: 0;
   color: #fff;
-  background: rgba(15, 79, 255, 0.75);
+  background: rgba(255, 81, 81, 0.9);
   opacity: 1;
   transition: opacity 0.5s cubic-bezier(0.33, 0, 0.2, 1);
 }
@@ -478,7 +478,7 @@ body {
 }
 
 .post-card.no-image .post-card-title {
-  font-size: 5rem;
+  font-size: 4.5rem;
   line-height: 1.15em;
   text-align: left;
 }
@@ -489,7 +489,7 @@ body {
 
 @media (max-width: 1200px) {
   .post-card.no-image .post-card-title {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
   }
 }
 @media (max-width: 700px) {
@@ -683,8 +683,8 @@ body {
   flex: 1;
 }
 
-.post-content-body .grid-group--mobile p picture img {
-  border: solid 1px var(--color-border: #ddd);
+.post-content-body p picture img {
+  border: solid 1px var(--color-border);
 }
 
 @media (max-width: 500px) {
