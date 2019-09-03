@@ -683,7 +683,7 @@ body {
   flex: 1;
 }
 
-.post-content-body .grid-group--mobile p picture img {
+.post-content-body p picture img {
   border: solid 1px var(--color-border);
 }
 
