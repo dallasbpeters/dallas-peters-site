@@ -1,0 +1,6 @@
+/* Bio -- all the parts for the about page
+/* ---------------------------------------------------------- */
+
+.bio--figure .gatsby-image-wrapper picture img {
+  border-radius: 3px;
+}
