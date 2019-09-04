@@ -2,6 +2,7 @@
 
 import React from "react"
 import { Link } from "gatsby"
+import Logo from "../components/logo"
 
 const Layout = props => {
   const { title, children } = props
@@ -41,8 +42,11 @@ const Layout = props => {
             </ul>
           </nav>
           <div className="site-head-center">
-            <Link className="site-head-logo" to={`/`}>
+            {/* <Link className="site-head-logo" to={`/`}>
               {title}
+            </Link> */}
+            <Link className="fixed-logo" to={`/`}>
+              <Logo />
             </Link>
           </div>
           <div className="site-head-right">
