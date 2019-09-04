@@ -1,6 +1,6 @@
 ---
 title: Global Bible Mobile UI
-date: "2019-06-01"
+date: "2019-07-01"
 thumbnail: ./cover.png
 description: User Experience Design for Global.Bible Progressive Web App
 ---

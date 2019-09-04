@@ -1,6 +1,6 @@
 ---
 title: Bible Fitness Proof of Concept
-date: "2017-01-01"
+date: "2019-07-01"
 thumbnail: ./cover.png
 description: Bible reading habit tracker following the fitness and goal tracking trend in mobile apps.
 ---
