@@ -1,6 +1,6 @@
 ---
 title: Gather Mobile App
-date: "2018-01-01"
+date: "2019-07-01"
 thumbnail: ./cover.png
 description: Gather is a Bible reading community built around sharing user generated Bible content.
 ---
