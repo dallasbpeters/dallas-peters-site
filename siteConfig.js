@@ -1,9 +1,10 @@
 module.exports = {
   name: "Dallas Peters",
   shortName: "Dallas Peters",
-  description: "Product designer with over 13 years of design experience.",
+  description:
+    "Hi. I'm a product designer with over 12 years of user centered design experience.",
   url: "https://dallaspeters.co", // Domain of your site without prefix!
   prefix: "/",
   author: "Dallas Peters",
-  twitter: "Dallas Peters",
+  twitter: "dp_d",
 }
