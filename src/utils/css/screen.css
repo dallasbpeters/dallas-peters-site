@@ -18,6 +18,7 @@ production stylesheet in assets/built/screen.css using gulp dev
 @import "components/actions.css";
 @import "components/hamburger.css";
 @import "components/animations.css";
+@import "components/bio.css";
 
 /* Main - Theme styles
 /* ---------------------------------------------------------- */
@@ -129,6 +130,15 @@ body {
 
 .site-foot a {
   color: var(--color-base);
+}
+
+.fixed-logo {
+  position: fixed;
+  top: 2vw;
+  transition: transform 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+}
+.fixed-logo:hover {
+  transform: scale(1.1) rotate(-13deg);
 }
 
 /* Site Navigation
