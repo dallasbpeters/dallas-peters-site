@@ -34,9 +34,11 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1360,
-              withWebp: true,
+              withWebp: false,
               showCaptions: true,
               quality: 75,
+              loading: "auto",
+              linkImagesToOriginal: false,
               wrapperStyle: `margin: 7vw 0;`,
             },
           },
@@ -114,7 +116,12 @@ module.exports = {
         usePreconnect: true,
       },
     },
-
+    {
+      resolve: "gatsby-plugin-netlify-cache",
+      options: {
+        cachePublic: true,
+      },
+    },
     `gatsby-plugin-netlify`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
