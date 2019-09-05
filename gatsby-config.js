@@ -40,6 +40,7 @@ module.exports = {
               showCaptions: true,
               backgroundColor: `white`,
               wrapperStyle: `margin: 7vw 0;`,
+              loading: `eager`,
             },
           },
           {
