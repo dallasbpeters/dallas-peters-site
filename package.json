@@ -1,6 +1,6 @@
 {
-  "name": "dallas-peters-sote",
-  "private": true,
+  "name": "dallas-peters-site",
+  "private": false,
   "description": "Website for UX designer Dallas Peters",
   "version": "0.1.0",
   "author": "Dallas Peters <dallaspeters@gmail.com>",
