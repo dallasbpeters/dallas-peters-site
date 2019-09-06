@@ -52,15 +52,3 @@ Sadly this project was just a test of new tech stack and a trial to see how much
 ![BibleSearch Proof Of Concept](./bs-poc-7.png)
 
 </div>
-
-## Unused Designs
-
-These are a few design concepts that we moved away from pretty quickly in favor of a more hyper-minimalist style. Enjoy.
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![BibleSearch Proof Of Concept](./unused-1.png)
-
-![BibleSearch Proof Of Concept](./unused-2.png)
-
-</div>
