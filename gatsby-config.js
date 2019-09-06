@@ -117,12 +117,12 @@ module.exports = {
         usePreconnect: true,
       },
     },
-    // {
-    //   resolve: "gatsby-plugin-netlify-cache",
-    //   options: {
-    //     cachePublic: true,
-    //   },
-    // },
+    {
+      resolve: "gatsby-plugin-netlify-cache",
+      options: {
+        cachePublic: true,
+      },
+    },
     `gatsby-plugin-netlify`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
