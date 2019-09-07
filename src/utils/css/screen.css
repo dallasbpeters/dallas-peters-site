@@ -435,6 +435,7 @@ body {
 
 .post-card-large {
   flex: 1 1 100%;
+  height: 45vw;
 }
 
 .post-card-link {
