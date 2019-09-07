@@ -49,6 +49,7 @@ const Layout = props => {
               <Logo />
             </Link>
           </div>
+
           <div className="site-head-right">
             <div className="social-links">
               <a
@@ -73,7 +74,7 @@ const Layout = props => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Sourcerer (Code)
+                Sourcerer
               </a>
             </div>
           </div>
@@ -85,20 +86,13 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
-        <a
-          href="https://gatsbyjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Gatsby
-        </a>{" "}
-        and{" "}
+        &copy;&nbsp;
+        {new Date().getFullYear()}&nbsp;<Link to={`/`}>{title}</Link>
+        &nbsp;&mdash;&nbsp;Built with &nbsp;
         <span role="img" aria-label="red heart">
           ❤️
-        </span>{" "}
-        in Austin, TX.
+        </span>
+        &nbsp;in Austin, TX.
       </footer>
     </div>
   )
