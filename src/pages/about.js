@@ -29,22 +29,43 @@ const AboutPage = ({ data }, location) => {
             Hi. I'm Dallas. I design and develop things for screens.
           </h1>
         </header>
+        <figure className="kg-card kg-image-card kg-width-full">
+          <Img
+            fluid={data.profileHero.childImageSharp.fluid}
+            className="kg-image"
+          />
+        </figure>
         <div className="bio row">
           <div className="col-12">
-            <figure className="bio--figure">
-              <Img fluid={data.dallasBioPhoto.childImageSharp.fluid} />
-            </figure>
             <h3>About Me</h3>
+            <Img
+              fluid={data.bioImage.childImageSharp.fluid}
+              className="bio--image"
+            />
             <p>
               I'm a Product Designer &amp; CSS Guru. Born in Amarillo, Texas.
               Rasied in Phoenix, Arizona. Now living and working in Austin,
               Texas. I have four kids and an amazing wife and we're all in love
-              with Austin. Over the past 13 years I've become a
-              jack-of-all-trades in the graphic, web and product design space.
-              After graduation from the Art Institute of Pittsburgh with a
-              degree in graphic design I went to work making ads and posters and
-              other graphic assets for the Austin American Statesman... more to
-              come!
+              with Austin.
+            </p>
+            <p>
+              After graduating from the Art Institute of Pittsburgh with a
+              degree in graphic design I went to work making ads and posters for
+              the Austin American Statesman.
+            </p>
+            <p>
+              Then, the blog explosion hit us. Everyone and their grandma wanted
+              to have a blog. So I got busy learning html, css, and php so I
+              could help a few friends launch their soon to be internet-famous
+              blogs. While those friends didn't actually become internet-famous,
+              I did continue to make blogs and sites for local businesses in and
+              around Austin, Texas.
+            </p>
+            <p>
+              Over the past 13 years I've become a jack-of-all-trades in the
+              graphic, web and interface design space but have gravitated toward
+              product design and developement and that's where I happily sit
+              today.
             </p>
 
             <section className="work-experience">
@@ -148,6 +169,19 @@ const AboutPage = ({ data }, location) => {
             </section>
           </div>
         </div>
+        <footer className="connect">
+          <a
+            href="https://www.linkedin.com/in/dallas-peters-218235155/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Img
+              className="st-icon"
+              fluid={data.linkedInIcon.childImageSharp.fluid}
+            />
+            Connect on LinkedIn
+          </a>
+        </footer>
         {/* end bio row */}
       </article>
     </Layout>
@@ -161,9 +195,16 @@ const indexQuery = graphql`
         title
       }
     }
-    dallasBioPhoto: file(relativePath: { eq: "dallas-profile.jpg" }) {
+    profileHero: file(relativePath: { eq: "profile-hero.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500) {
+        fluid(maxWidth: 1350) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    bioImage: file(relativePath: { eq: "dallas-profile.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 300) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -192,6 +233,15 @@ const indexQuery = graphql`
     dpdLogo: file(relativePath: { eq: "logo.png" }) {
       childImageSharp {
         fluid(maxWidth: 200) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    linkedInIcon: file(
+      relativePath: { eq: "professional-network-linkedin@2x.png" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 48) {
           ...GatsbyImageSharpFluid
         }
       }
