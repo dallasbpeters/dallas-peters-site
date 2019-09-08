@@ -54,18 +54,17 @@ const AboutPage = ({ data }, location) => {
               the Austin American Statesman.
             </p>
             <p>
-              Then, the blog explosion hit us. Everyone and their grandma wanted
-              to have a blog. So I got busy learning html, css, and php so I
-              could help a few friends launch their soon to be internet-famous
-              blogs. While those friends didn't actually become internet-famous,
-              I did continue to make blogs and sites for local businesses in and
-              around Austin, Texas.
+              Then, the blog explosion hit us all. Everyone and their grandma
+              wanted to have a blog. So I got busy learning html, css, and php
+              so I could help a few friends launch their soon to be
+              internet-famous blogs. While those friends didn't actually become
+              internet-famous, I did continue to make blogs and sites for local
+              businesses in and around Austin, Texas.
             </p>
             <p>
               Over the past 13 years I've become a jack-of-all-trades in the
-              graphic, web and interface design space but have gravitated toward
-              product design and developement and that's where I happily sit
-              today.
+              graphic, web and interface design space but have squarely landed
+              in product design and developement territory.
             </p>
 
             <section className="work-experience">
