@@ -20,6 +20,8 @@ production stylesheet in assets/built/screen.css using gulp dev
 @import "components/animations.css";
 @import "components/bio.css";
 @import "components/about.css";
+@import "components/darkmode.css";
+@import "components/logo.css";
 
 /* Main - Theme styles
 /* ---------------------------------------------------------- */
@@ -108,6 +110,10 @@ body {
   letter-spacing: -0.015em;
   color: var(--color-base);
 }
+body.dark .page-head-title {
+  color: var(--color-base-dark);
+}
+
 @media (max-width: 500px) {
   .page-head-title {
     font-size: 2.8rem;
@@ -138,22 +144,9 @@ body {
   color: var(--color-base);
 }
 
-.fixed-logo {
-  position: fixed;
-  top: 2vw;
-  transition: transform 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-}
-@media (max-width: 850px) {
-  .fixed-logo {
-    top: 3vw;
-  }
-}
-
-.fixed-logo:hover {
-  transform: scale(1.1) rotate(-90deg);
-}
-
 /* Site Navigation
+
+
 /* ---------------------------------------------------------- */
 
 .site-head {
@@ -730,6 +723,10 @@ body {
   .post-content-body .grid-group--mobile p {
     flex-basis: 50%;
   }
+}
+
+.post-content-footer {
+  text-align: center;
 }
 
 .grid-group--mobile span.gatsby-resp-image-wrapper {

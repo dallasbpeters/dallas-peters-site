@@ -3,6 +3,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Logo from "../components/logo"
+import DarkModeToggle from "./darkmodeToggle"
 
 const Layout = props => {
   const { title, children } = props
@@ -45,9 +46,7 @@ const Layout = props => {
             {/* <Link className="site-head-logo" to={`/`}>
               {title}
             </Link> */}
-            <Link className="fixed-logo" to={`/`}>
-              <Logo />
-            </Link>
+            <Logo />
           </div>
 
           <div className="site-head-right">
@@ -76,6 +75,7 @@ const Layout = props => {
               >
                 Sourcerer
               </a>
+              <DarkModeToggle />
             </div>
           </div>
         </div>
