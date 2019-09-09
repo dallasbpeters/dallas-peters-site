@@ -3,6 +3,7 @@ title: Tiny Love
 date: "2018-01-01"
 thumbnail: ./cover.png
 description: Branding and Style Tile Design
+behance: https://www.behance.net/gallery/82695859/Tiny-Love-Branding-and-Style-Tiles
 ---
 
 ## Tiny Love Doula Training Program
@@ -50,5 +51,3 @@ description: Branding and Style Tile Design
 ![Tile](./10tile.png)
 
 </div>
-
-📎Check out the project on [behance.net](https://www.behance.net/gallery/82695859/Tiny-Love-Branding-and-Style-Tiles)

@@ -3,10 +3,12 @@
 
 :root {
   /* Colours */
-  --color-primary: #0d4cff;
+  --color-primary: #e73d32;
   --color-base: #111111;
+  --color-base-dark: #f8f8f8;
   --color-border: #ddd;
   --color-bg: #f8f8f8;
+  --color-bg-dark: #111111;
 
   /* Fonts */
   --font-sans-serif: "Work Sans", sans-serif;

@@ -44,12 +44,16 @@ class BlogPostTemplate extends React.Component {
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
 
-          <footer className="post-content-footer">
-            {/* There are two options for how we display the byline/author-info.
-        If the post has more than one author, we load a specific template
-        from includes/byline-multiple.hbs, otherwise, we just use the
-        default byline. */}
-          </footer>
+          {post.frontmatter.behance && (
+            <footer className="post-content-footer">
+              <a className="button" href={post.frontmatter.behance}>
+                <span role="img" aria-label="red heart">
+                  📎
+                </span>
+                Check out the project on Behance
+              </a>
+            </footer>
+          )}
         </article>
       </Layout>
     )
@@ -81,6 +85,7 @@ export const pageQuery = graphql`
             }
           }
         }
+        behance
       }
     }
   }
