@@ -3,6 +3,7 @@ title: Global Bible
 date: "2018-01-01"
 thumbnail: ./cover.png
 description: Product design for American Bible Society's Global Bible Bible reading application.
+behance: https://www.behance.net/gallery/71083271/Global-Bible
 ---
 
 ### Website Design
@@ -94,7 +95,3 @@ description: Product design for American Bible Society's Global Bible Bible read
 ![Wireframes](./5wireframes-5.png)
 
 </div>
-
----
-
-📎 [View Project on Behance](https://www.behance.net/gallery/71083271/Global-Bible)

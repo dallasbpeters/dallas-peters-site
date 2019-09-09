@@ -46,7 +46,12 @@ class BlogPostTemplate extends React.Component {
 
           {post.frontmatter.behance && (
             <footer className="post-content-footer">
-              <a className="button" href={post.frontmatter.behance}>
+              <a
+                className="button"
+                href={post.frontmatter.behance}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span role="img" aria-label="red heart">
                   📎
                 </span>
