@@ -5,11 +5,12 @@ body {
   font-family: "Work Sans", "Muli", sans-serif;
   /* background: var(--color-bg); */
   background: rgb(255, 255, 255);
-  /* background: linear-gradient(
-    164deg,
-    rgba(255, 255, 255, 1) 50%,
-    rgba(116, 250, 197, 1) 50%
-  ); */
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle at top right,
+    rgba(255, 255, 255, 1) 85%,
+    rgba(116, 250, 197, 1) 85%
+  );
   transition: background 0.3s ease-out;
   transition-delay: 0.25;
 }
