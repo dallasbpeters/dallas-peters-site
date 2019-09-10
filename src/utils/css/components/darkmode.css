@@ -4,10 +4,29 @@
   cursor: pointer;
   fill: var(--color-bg-dark);
   opacity: 0.4;
+  transition: all 0.3s ease-in-out;
+}
+.dark-mode-trigger:hover svg {
+  fill: var(--color-primary);
+  opacity: 1;
+  transform: scale(1.1);
 }
 body.dark .dark-mode-trigger svg {
   fill: var(--color-primary);
   opacity: 1;
+}
+
+/* Hide the sun in night */
+body.dark .dark-mode-trigger .sun {
+  height: 0 !important;
+  width: 0 !important;
+}
+body.light .dark-mode-trigger .sun {
+}
+/* Hide the moon in day*/
+body.light .dark-mode-trigger .moon {
+  height: 0 !important;
+  width: 0 !important;
 }
 
 body.dark {
