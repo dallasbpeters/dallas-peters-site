@@ -1,0 +1,44 @@
+.page-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10vw 0;
+  max-width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+@media (max-width: 850px) {
+  .page-head {
+    max-width: 90%;
+  }
+}
+
+.page-head-title {
+  margin: 0;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--color-base);
+}
+
+@media (max-width: 500px) {
+  .page-head-title {
+    font-size: 2.8rem;
+    font-weight: 600;
+  }
+}
+
+.page-head-description {
+  margin: 0 0 1.6vw;
+  color: color(var(--color-border) l(-20%));
+  font-size: 2.2rem;
+  line-height: 1.35em;
+}
+@media (max-width: 500px) {
+  .page-head-description {
+    font-size: 1.6rem;
+  }
+}

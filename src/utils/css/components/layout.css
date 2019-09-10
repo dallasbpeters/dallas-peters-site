@@ -1,0 +1,12 @@
+/* Layout
+/* ---------------------------------------------------------- */
+
+.site-wrapper {
+  padding: 3vw;
+  min-height: 100vh;
+}
+@media (max-width: 850px) {
+  .site-wrapper {
+    padding: 6vw;
+  }
+}
