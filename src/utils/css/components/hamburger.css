@@ -1,3 +1,14 @@
+/* Mobile Nav Menu
+/* ---------------------------------------------------------- */
+
+.nav-burger {
+  display: none;
+  position: absolute;
+  left: 0;
+  z-index: 9999;
+  padding: 12px 12px 12px 0;
+}
+
 /* https://github.com/jonsuh/hamburgers */
 .hamburger {
   display: flex;

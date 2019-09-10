@@ -1,0 +1,24 @@
+.error-head {
+  height: 75vh;
+}
+
+.error-head h1 {
+  margin: 0;
+  font-size: 7rem;
+  line-height: 1.1em;
+  font-weight: var(--font-heavy);
+  letter-spacing: 10px;
+}
+
+.error-head p {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: color(var(--color-base) l(+50%));
+}
+
+.error-link {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
