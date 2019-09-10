@@ -18,3 +18,6 @@
 .fixed-logo:hover {
   transform: scale(1.1) rotate(-90deg);
 }
+.fixed-logo.fixed-logo.scrolled:hover {
+  top: 0;
+}

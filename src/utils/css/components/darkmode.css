@@ -17,14 +17,12 @@ body.dark .dark-mode-trigger svg {
 }
 
 /* Hide the sun in night */
-body.dark .dark-mode-trigger .sun {
+body.dark .dark-mode-trigger .moon {
   height: 0 !important;
   width: 0 !important;
 }
-body.light .dark-mode-trigger .sun {
-}
 /* Hide the moon in day*/
-body.light .dark-mode-trigger .moon {
+body.light .dark-mode-trigger .sun {
   height: 0 !important;
   width: 0 !important;
 }
