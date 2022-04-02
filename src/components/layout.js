@@ -60,12 +60,12 @@ const Layout = props => {
                 Behance
               </a>
               <a
-                href="https://twitter.com/productdsign"
+                href="https://twitter.com/dp_design_co"
                 title="twitter"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                @productdsign
+                @dp_design_co
               </a>
               <a
                 href="https://sourcerer.io/dallasbpeters"
